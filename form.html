@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title> Survey </title>
+		<link href="stylesheet.css" type="text/css" rel="stylesheet"/>
+	</head>
+	<body>
+		<h1 style="text-align: center"> Celtic Survey</h1>
+		<form action="MAILTO:jenna.krinsley@gmail.com" method="post" enctype="text/plain">
+			First name: <input type="text" name="firstname"><br><br>
+			Last name: <input type="text" name="lastname"><br><br>
+			Email: <input type="text" name="email"><br><br>
+			Gender: <br><input type="radio" name="gender" value="male">Male<br>
+					<input type="radio" name="gender" value="female">Female<br>
+					<input type="radio" name="gender" value="not specified">Not Specified<br><br><br>
+			Nationality: <select name="nationality">
+			<option value="UnitiedStates"> United States</option>
+			<option value="UnitiedKingdom"> United Kingdom</option>
+			<option value="Ireland"> Ireland</option>
+			<option value="Other"> Other</option>
+			</select><br><br>
+			What aspects of Celtic culture and/or history interest you the most?:<br>
+			(Check all that apply)<br>
+			<input type="checkbox" name="interests" value="drawings"> Celtic Knots <br>
+			<input type="checkbox" name="interests" value="myths"> Mythology <br>
+			<input type="checkbox" name="interests" value="history"> History <br>
+			<input type="checkbox" name="interests" value="culture"> Culture <br>
+			<input type="checkbox" name="interests" value="family"> Family History <br><br><br>
+			Any other comments/interesting facts you would like to share?:<br>
+			<textarea rows="10" cols="40">
+			
+			</textarea>
+			<br><br>
+			<input type="submit" value="Submit">
+			<input type="reset" value="Reset">
+			</form>
+			
+	</body>
+</html>
