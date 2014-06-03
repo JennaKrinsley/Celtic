@@ -223,3 +223,15 @@ form {
 	font-size: 30px;
 	font-style: bold;
 }
+.imageFlexslider {
+	height: 100%;
+	width: 100%;
+
+}
+.flexslider {
+	height: 50%;
+	width: 75%;
+	margin-left: 200px;
+	
+}
+}
