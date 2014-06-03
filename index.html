@@ -2,9 +2,10 @@
 <html>
 	<head>
 		<title>Celtic History</title>
-		<link href="stylesheet.css" rel="stylesheet" type="text/css"/>
+		<link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
 		<link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
-		<script src="script.js" type="text/javascript" onload="showTime()"></script>
+		<script src="js/script.js" type="text/javascript" onload="showTime()"></script>
+		<link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen" />
 		<script type="text/javascript" onload="alert()">
 			alert("Welcome to my Celtic Knot site!\n I hope you have a great day!");
 		</script>
@@ -26,7 +27,59 @@
 			</ul>
 		</nav>
 		<h1 class="title" style="text-align: center">Celtic: A History and meanings of symbols</h1>
-			<img class="knot1" src="http://www.irishindeed.com/graphics/80148.JPG" alt="A Sample of a Celtic Knot">
+		<div id="main" role="main">
+      <section class="slider">
+        <div class="flexslider">
+          <ul class="slides">
+            <li>
+  	    	    <img class="knot1" src="http://www.irishindeed.com/graphics/80148.JPG" alt="A Sample of a Celtic Knot" class="imageFlexslider" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/bookcaseLights.jpg" alt="bookcase with lights" title="bookcase with lights" class="imageFlexslider" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/bookcaseFinished.jpg" alt="finished bookcase" title="finished bookcase" class="imageFlexslider" />
+  	    		</li>
+  	    		<li>
+  	    	    <img src="images/kitchen_adventurer_caramel.jpg" class="imageFlexslider" />
+  	    		</li>
+          </ul>
+        </div>
+      </section>
+    
+        <div id="view-html" class="code">
+          <pre class="brush: xml; toolbar: false; gutter: false;">
+          
+          </pre>
+        </div>
+     
+    </div>
+
+  </div>
+
+  <!-- jQuery -->
+>
+ <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')</script>
+	<!-- Modernizr -->
+  <script src="js/modernizr.js"></script>
+  <!-- FlexSlider -->
+  <script src="js/jquery.flexslider.js"></script>
+
+  <script type="text/javascript">
+   
+    $(window).load(function(){
+      $('.flexslider').flexslider({
+        animation: "slide"
+        //start: function(slider){
+        //  $('body').removeClass('loading');
+        //}
+      });
+    });
+  </script>
+
+
+			
 			<h4><a href="form.html" id="survey"> Please take the time to take this survey</a></h4>
 		<h4>It is now  
 <script type="text/javascript">
